@@ -37,12 +37,12 @@ let courses = [
     ];
 
     function whenDoesItStart(courses) {
-        return courses.Location == "Classroom 9";
+        return courses.StartDate == "11/22/22";
     }
 
-    let course = courses.find(whenDoesItStart);
+    let startDate = courses.find(whenDoesItStart);
 
-    //console.table(course)
+   //console.table(startDate)
 
 
     function theTitleOfCourse (courses) {
@@ -68,3 +68,4 @@ let courses = [
     let classroom = courses.filter(whereClassesMeet);
 
     console.table(classroom);
+    
