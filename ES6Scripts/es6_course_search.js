@@ -40,9 +40,9 @@ let courses = [
         return courses.StartDate == "11/22/22";
     }
 
-    let startDate = courses.find(whenDoesItStart);
+    //let startDate = courses.find(whenDoesItStart);
 
-   //console.table(startDate)
+    console.table(startDate)
 
 
     function theTitleOfCourse (courses) {
@@ -67,5 +67,5 @@ let courses = [
 
     let classroom = courses.filter(whereClassesMeet);
 
-    console.table(classroom);
-    
+    //console.table(classroom);
+          
